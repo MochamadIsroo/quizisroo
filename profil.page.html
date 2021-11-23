@@ -1,0 +1,49 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Profil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+      <ion-item>
+        <ion-label>Nama</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+     
+      <ion-item>
+        <ion-label>NPM</ion-label>
+        <ion-input type="number"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Password</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Gender</ion-label>
+          <ion-select placeholder="select one">
+              <ion-select-option value="f">Famele</ion-select-option>
+                <ion-select-option value="m">male</ion-select-option>
+          </ion-select>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Tanggal lahir</ion-label>
+        <ion-input type="date"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Email</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+
+      <ion-button expand="block" fill="outline">
+        Ubah
+      </ion-button>
+    </ion-card>
+</ion-content>
